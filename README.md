@@ -1,16 +1,115 @@
-**CS221 - DISCRETE STRUCTURES II**
+# 📌 Smart Campus Navigation System
 
-MIDTERM PROJECT - **SMART CAMPUS NAVIGATION SYSTEM**
+![Project Status](https://img.shields.io/badge/status-completed-brightgreen)
+![Language](https://img.shields.io/badge/language-javascript-blue)
 
-Members:<br>
-**1. BONITA, CRIZZA<br>
-2. DACARA, ANGELA G.<br>
-3. ROMAN, FRANCIS M.**
+> A graph-based navigation system that finds the shortest path between locations within a campus.
 
-Features of our system:
+---
 
-	•	In this project, we developed a program that helps users find the shortest path between locations within a campus or any mapped area. 
-	•	Our system allows the user to input locations (vertices) and the connections between them (edges), display all locations and connections clearly, and provide functionality to determine whether two locations are connected. 
-	•	The main feature of our program is a shortest path finder: given a starting location and a destination, our program displays the shortest path along with the number of steps. 
-	•	We implemented the solution using HTML, CSS, and JavaScript. 
-	•	The program is menu-driven, user-friendly, and provides clear prompts and outputs. 
+## 📖 Overview
+
+The **Smart Campus Navigation System** is a menu-driven application that helps users navigate through a campus (or any mapped environment). It models locations as **vertices** and connections as **edges**, allowing users to compute the shortest path between two points efficiently.
+
+This project applies fundamental concepts in **data structures and algorithms**, particularly graph theory and pathfinding.
+
+---
+
+## ✨ Features
+
+* 📍 Add and manage locations (vertices)
+* 🔗 Create connections between locations (edges)
+* 📋 Display all locations and their connections
+* 🔍 Check if two locations are connected
+* 🧭 Find the shortest path between two points
+* 📏 Show number of steps in the shortest path
+
+### ⭐ Bonus Features
+
+* ⚖️ Weighted graph support (distance-based paths)
+* 🖼️ Graph visualization
+* 🖥️ Simple GUI interface
+
+---
+
+## 🧠 Algorithms Used
+
+| Feature                    | Algorithm                  |
+| -------------------------- | -------------------------- |
+| Connectivity Check         | Breadth-First Search (BFS) |
+| Shortest Path (Unweighted) | BFS                        |
+| Shortest Path (Weighted)   | Dijkstra’s Algorithm       |
+
+---
+
+## 🏗️ Project Structure
+
+```
+CS221-Smart-Campus-Navigation-System/
+│── index.html
+│── main.js
+│── style.css
+│── README.md
+```
+
+## 🚀 Getting Started
+
+### 🔧 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/prancisnof/CS221-Smart-Campus-Navigation-System.git
+cd CS221-Smart-Campus-Navigation-System
+```
+
+### ▶️ Run the Program
+
+**HTML**
+
+```bash
+index.html
+```
+
+## 🖥️ Usage
+
+1. Launch the program
+2. Choose from the menu options
+3. Add locations and connections
+4. Select “Find Path”
+5. Input starting point and destination
+6. View the result (path + no. of steps)
+
+---
+
+## 📸 Example Output
+
+```
+Enter starting location: Library
+Enter destination: Mini Grandstand
+
+Shortest Path:
+Library → USANT Forum → Mini Grandstand
+
+Number of steps: 35
+```
+
+---
+
+## 📚 Concepts Applied
+
+* Graph Data Structure
+* Adjacency List / Matrix
+* BFS Traversal
+* Dijkstra’s Algorithm
+* Algorithm Optimization
+
+---
+
+## 👨‍💻 Members
+
+**1. Francis M. Roman**
+
+**2. Crizza Bonita**
+
+**3. Angela Dacara**
