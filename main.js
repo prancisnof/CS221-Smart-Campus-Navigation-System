@@ -559,12 +559,12 @@ class GraphCanvas {
     const ly     = node.y + R + 4;
 
     // Label background pill
-    ctx.fillStyle = 'rgba(142, 19, 243, 0.1)';
+    ctx.fillStyle = 'rgba(142, 19, 243, 0.56)';
     this._roundRect(ctx, lx, ly, tw, th, 3);
     ctx.fill();
 
     // Label text
-    ctx.fillStyle    = isHi ? color : 'rgb(67, 3, 135)';
+    ctx.fillStyle    = isHi ? color : 'rgb(255, 255, 255)';
     ctx.textAlign    = 'center';
     ctx.textBaseline = 'top';
     ctx.fillText(label, node.x, ly + 2);
