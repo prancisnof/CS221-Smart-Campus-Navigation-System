@@ -819,7 +819,7 @@ button {
 
 .btn-delete-loc:hover {
   transform: translateX(-50%) translateY(-2px);
-  box-shadow: 0 6px 24px rgba(255, 68, 102, 0.25);
+  box-shadow: 0 6px 24px rgba(252, 46, 84, 0.5);
 }
 
 /* ─── Empty State ────────────────────────────────────────────────── */

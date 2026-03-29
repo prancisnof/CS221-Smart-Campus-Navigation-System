@@ -469,7 +469,7 @@ class GraphCanvas {
     } else {
       // Normal edge
       ctx.save();
-      ctx.strokeStyle = 'rgba(221, 127, 255, 0.51)';
+      ctx.strokeStyle = 'rgba(214, 100, 255, 0.75)';
       ctx.lineWidth   = 1.5;
       ctx.beginPath();
       ctx.moveTo(fn.x, fn.y);
@@ -485,12 +485,12 @@ class GraphCanvas {
     const lh    = 16;
 
     // Pill background
-    ctx.fillStyle = isHi ? 'rgba(28, 0, 50, 0.92)' : '#a65dd3cc';
+    ctx.fillStyle = isHi ? 'rgba(199, 125, 255, 0.92)' : '#ac7fc8';
     this._roundRect(ctx, mx - lw / 2, my - lh / 2, lw, lh, 3);
     ctx.fill();
 
     // Label text
-    ctx.fillStyle    = isHi ? '#6c5dd3' : 'rgba(28, 0, 50, 0.92)';
+    ctx.fillStyle    = isHi ? '#000000' : 'rgba(28, 0, 50, 0.92)';
     ctx.font         = `${isHi ? '600 ' : ''}11px "JetBrains Mono", monospace`;
     ctx.textAlign    = 'center';
     ctx.textBaseline = 'middle';
