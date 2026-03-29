@@ -46,6 +46,8 @@ This project applies fundamental concepts in **data structures and algorithms**,
 
 ```
 CS221-Smart-Campus-Navigation-System/
+│── images/
+│   ├── map.jpg
 │── index.html
 │── main.js
 │── style.css
