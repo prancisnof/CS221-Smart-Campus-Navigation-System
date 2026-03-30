@@ -42,11 +42,13 @@ This project applies fundamental concepts in **data structures and algorithms an
 CS221-Smart-Campus-Navigation-System/
 │── images/
 │   ├── map.jpg
+│── main/
+│   │── index.html
+│   │── main.js
+│   │── style.css
+│── sample data/
+│   ├── campus-map.json
 │── README.md
-│── campus-map.json
-│── index.html
-│── main.js
-│── style.css
 ```
 
 ## 🖥️ Usage
