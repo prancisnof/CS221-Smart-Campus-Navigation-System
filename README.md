@@ -11,7 +11,7 @@
 
 The **Smart Campus Navigation System** is a menu-driven application that helps users navigate through a campus (or any mapped environment). It models locations as **vertices** and connections as **edges**, allowing users to compute the shortest path between two points efficiently.
 
-This project applies fundamental concepts in **data structures and algorithms**, particularly graph theory and pathfinding.
+This project applies fundamental concepts in **data structures and algorithms and discrete structures**, particularly graph theory and pathfinding.
 
 ---
 
@@ -23,12 +23,6 @@ This project applies fundamental concepts in **data structures and algorithms**,
 * 🔍 Check if two locations are connected
 * 🧭 Find the shortest path between two points
 * 📏 Show number of steps in the shortest path
-
-### ⭐ Bonus Features
-
-* ⚖️ Weighted graph support (distance-based paths)
-* 🖼️ Graph visualization
-* 🖥️ Simple GUI interface
 
 ---
 
@@ -48,21 +42,11 @@ This project applies fundamental concepts in **data structures and algorithms**,
 CS221-Smart-Campus-Navigation-System/
 │── images/
 │   ├── map.jpg
+│── README.md
+│── campus-map.json
 │── index.html
 │── main.js
 │── style.css
-│── README.md
-```
-
-## 🚀 Getting Started
-
-### 🔧 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/prancisnof/CS221-Smart-Campus-Navigation-System.git
-cd CS221-Smart-Campus-Navigation-System
 ```
 
 ### ▶️ Run the Program
@@ -83,35 +67,17 @@ index.html
 6. View the result (path + no. of steps)
 
 ---
+## 🏃‍♀️‍➡️ Importing sample data
 
-## 📸 Example Output
-
-```
-Enter starting location: Library
-Enter destination: Mini Grandstand
-
-Shortest Path:
-Library → USANT Forum → Mini Grandstand
-
-Number of steps: 35
-```
-
----
-
-## 📚 Concepts Applied
-
-* Graph Data Structure
-* Adjacency List / Matrix
-* BFS Traversal
-* Dijkstra’s Algorithm
-* Algorithm Optimization
-
+1. In the campus-map.json file, copy the code inside
+2. Run the index.html file
+3. In the "Build Tab", click the import button beside the "Graph Builder"
+4. In the text box, paste the code you copied from the JSON file
+5. Click import
 ---
 
 ## 👨‍💻 Members
 
-**1. Francis M. Roman**
-
-**2. Crizza Bonita**
-
+**1. Francis M. Roman**<br>
+**2. Crizza Bonita**<br>
 **3. Angela Dacara**
