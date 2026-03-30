@@ -49,14 +49,6 @@ CS221-Smart-Campus-Navigation-System/
 │── style.css
 ```
 
-### ▶️ Run the Program
-
-**HTML**
-
-```bash
-index.html
-```
-
 ## 🖥️ Usage
 
 1. Launch the program
@@ -76,8 +68,19 @@ index.html
 5. Click import
 ---
 
+## 📸 Output Documentation
+**Initial sample map**
+
+<img width="1920" height="878" alt="output" src="https://github.com/user-attachments/assets/fc3af057-6292-4f9d-9f65-161659d9c731"/><br><br>
+
+**After navigating from one place to another**
+
+<img width="1920" height="878" alt="output2" src="https://github.com/user-attachments/assets/72104475-1b11-4d19-8253-f91b55b0b217"/>
+
+---
+
 ## 👨‍💻 Members
 
-**1. Francis M. Roman**<br>
-**2. Crizza Bonita**<br>
-**3. Angela Dacara**
+**1. ROMAN, FRANCIS M.**<br>
+**2. BONITA, CRIZZA B.**<br>
+**3. DACARA, ANGELA G.**
