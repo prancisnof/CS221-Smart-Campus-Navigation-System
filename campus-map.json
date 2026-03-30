@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "name": "SGO Building",
+      "x": 247,
+      "y": 277
+    },
+    {
+      "name": "SGO Caf",
+      "x": 184,
+      "y": 276
+    },
+    {
+      "name": "Maritime Building",
+      "x": 143,
+      "y": 92
+    },
+    {
+      "name": "Oval",
+      "x": 192,
+      "y": 338
+    },
+    {
+      "name": "Tennis Court",
+      "x": 288,
+      "y": 336
+    },
+    {
+      "name": "Swimming Pool",
+      "x": 315,
+      "y": 424
+    },
+    {
+      "name": "Forum",
+      "x": 392,
+      "y": 322
+    },
+    {
+      "name": "SHS Building",
+      "x": 332,
+      "y": 253
+    },
+    {
+      "name": "CEA Building",
+      "x": 394,
+      "y": 243
+    },
+    {
+      "name": "Montessori Building",
+      "x": 473,
+      "y": 89
+    },
+    {
+      "name": "Canteen",
+      "x": 412,
+      "y": 199
+    },
+    {
+      "name": "Mini Grandstand",
+      "x": 499,
+      "y": 170
+    },
+    {
+      "name": "CRIM Building",
+      "x": 603,
+      "y": 216
+    },
+    {
+      "name": "JHS Building",
+      "x": 811,
+      "y": 199
+    },
+    {
+      "name": "Gate 1",
+      "x": 913,
+      "y": 162
+    },
+    {
+      "name": "Mini Soccer Field",
+      "x": 164,
+      "y": 136
+    },
+    {
+      "name": "NBC-1",
+      "x": 314,
+      "y": 111
+    },
+    {
+      "name": "Maritime Laboratory",
+      "x": 255,
+      "y": 72
+    },
+    {
+      "name": "Gate 3",
+      "x": 159,
+      "y": 545
+    },
+    {
+      "name": "Mini Hotel",
+      "x": 776,
+      "y": 75
+    },
+    {
+      "name": "Library",
+      "x": 107,
+      "y": 277
+    }
+  ],
+  "edges": [
+    {
+      "from": "Canteen",
+      "to": "CEA Building",
+      "weight": 15
+    },
+    {
+      "from": "CEA Building",
+      "to": "SHS Building",
+      "weight": 16
+    },
+    {
+      "from": "SHS Building",
+      "to": "SGO Building",
+      "weight": 29
+    },
+    {
+      "from": "SGO Building",
+      "to": "Forum",
+      "weight": 51
+    },
+    {
+      "from": "CEA Building",
+      "to": "Forum",
+      "weight": 25
+    },
+    {
+      "from": "SHS Building",
+      "to": "Forum",
+      "weight": 31
+    },
+    {
+      "from": "SGO Caf",
+      "to": "SGO Building",
+      "weight": 21
+    },
+    {
+      "from": "SGO Building",
+      "to": "Oval",
+      "weight": 27
+    },
+    {
+      "from": "SGO Building",
+      "to": "Tennis Court",
+      "weight": 24
+    },
+    {
+      "from": "Tennis Court",
+      "to": "Swimming Pool",
+      "weight": 30
+    },
+    {
+      "from": "Swimming Pool",
+      "to": "Forum",
+      "weight": 43
+    },
+    {
+      "from": "Forum",
+      "to": "Tennis Court",
+      "weight": 35
+    },
+    {
+      "from": "SHS Building",
+      "to": "NBC-1",
+      "weight": 48
+    },
+    {
+      "from": "NBC-1",
+      "to": "Mini Soccer Field",
+      "weight": 51
+    },
+    {
+      "from": "Mini Soccer Field",
+      "to": "Maritime Building",
+      "weight": 16
+    },
+    {
+      "from": "Maritime Building",
+      "to": "Maritime Laboratory",
+      "weight": 38
+    },
+    {
+      "from": "Canteen",
+      "to": "Mini Grandstand",
+      "weight": 36
+    },
+    {
+      "from": "Mini Grandstand",
+      "to": "Montessori Building",
+      "weight": 28
+    },
+    {
+      "from": "CEA Building",
+      "to": "CRIM Building",
+      "weight": 70
+    },
+    {
+      "from": "CRIM Building",
+      "to": "JHS Building",
+      "weight": 69
+    },
+    {
+      "from": "Montessori Building",
+      "to": "Mini Hotel",
+      "weight": 101
+    },
+    {
+      "from": "Oval",
+      "to": "Gate 3",
+      "weight": 70
+    },
+    {
+      "from": "Library",
+      "to": "Oval",
+      "weight": 35
+    },
+    {
+      "from": "Library",
+      "to": "SGO Caf",
+      "weight": 26
+    },
+    {
+      "from": "Gate 1",
+      "to": "JHS Building",
+      "weight": 36
+    },
+    {
+      "from": "Maritime Laboratory",
+      "to": "NBC-1",
+      "weight": 24
+    }
+  ]
+}
