@@ -444,8 +444,9 @@ class GraphCanvas {
     if (isHi) {
       // Glowing highlighted edge
       ctx.save();
+      ctx.shadowColor = '#9900ff';
       ctx.shadowBlur  = 16;
-      ctx.strokeStyle = 'rgba(200, 0, 255, 0.75)';
+      ctx.strokeStyle = '#1aff00';
       ctx.lineWidth   = 2.5;
       ctx.beginPath();
       ctx.moveTo(fn.x, fn.y);
@@ -458,7 +459,6 @@ class GraphCanvas {
       const tx = fn.x + (tn.x - fn.x) * p;
       const ty = fn.y + (tn.y - fn.y) * p;
       ctx.save();
-      ctx.shadowColor = 'rgba(48, 20, 60, 0.55)';
       ctx.shadowColor = 'rgb(255, 255, 255)';
       ctx.shadowBlur  = 20;
       ctx.fillStyle   = 'rgba(255, 255, 255, 0.55)';
