@@ -444,7 +444,6 @@ class GraphCanvas {
     if (isHi) {
       // Glowing highlighted edge
       ctx.save();
-      ctx.shadowColor = '#d900ff';
       ctx.shadowBlur  = 16;
       ctx.strokeStyle = 'rgba(200, 0, 255, 0.75)';
       ctx.lineWidth   = 2.5;
@@ -460,8 +459,9 @@ class GraphCanvas {
       const ty = fn.y + (tn.y - fn.y) * p;
       ctx.save();
       ctx.shadowColor = 'rgba(48, 20, 60, 0.55)';
+      ctx.shadowColor = 'rgb(255, 255, 255)';
       ctx.shadowBlur  = 20;
-      ctx.fillStyle   = 'rgba(44, 20, 60, 0.55)';
+      ctx.fillStyle   = 'rgba(255, 255, 255, 0.55)';
       ctx.beginPath();
       ctx.arc(tx, ty, 4.5, 0, Math.PI * 2);
       ctx.fill();
@@ -469,7 +469,7 @@ class GraphCanvas {
     } else {
       // Normal edge
       ctx.save();
-      ctx.strokeStyle = 'rgba(214, 100, 255, 0.75)';
+      ctx.strokeStyle = 'rgb(255, 255, 255)';
       ctx.lineWidth   = 1.5;
       ctx.beginPath();
       ctx.moveTo(fn.x, fn.y);
@@ -490,7 +490,7 @@ class GraphCanvas {
     ctx.fill();
 
     // Label text
-    ctx.fillStyle    = isHi ? '#000000' : 'rgba(28, 0, 50, 0.92)';
+    ctx.fillStyle    = isHi ? '#000000' : 'rgb(28, 0, 50)';
     ctx.font         = `${isHi ? '600 ' : ''}11px "JetBrains Mono", monospace`;
     ctx.textAlign    = 'center';
     ctx.textBaseline = 'middle';
@@ -506,7 +506,7 @@ class GraphCanvas {
     const isEnd   = path && path[path.length - 1] === node.name;
 
     const R     = 14;
-    const color = (isStart || isEnd) ? '#a600ff' : '#d400ff';
+    const color = (isStart || isEnd) ? '#1aff00' : '#1aff00';
 
     if (isHi) {
       // Pulsing halo ring
