@@ -22,7 +22,7 @@ This project applies fundamental concepts in **data structures and algorithms an
 * 📋 Display all locations and their connections
 * 🔍 Check if two locations are connected
 * 🧭 Find the shortest path between two points
-* 📏 Show number of steps in the shortest path
+* 📏 Show number of steps in the shortest and longest path
 
 ---
 
@@ -40,12 +40,21 @@ This project applies fundamental concepts in **data structures and algorithms an
 
 ```
 CS221-Smart-Campus-Navigation-System/
+│── documentations/
+│   ├── Example Input and output.mp4
+│   ├── Explanation of approaches and algorithm.mkv
 │── images/
 │   ├── map.jpg
 │── main/
 │   │── index.html
 │   │── main.js
 │   │── style.css
+│── output screenshots/
+│   │── deleting a location.png
+│   │── finding connection.png
+│   │── importing the sample data.png
+│   │── main page.png
+│   │── navigating path.png
 │── sample data/
 │   ├── campus-map.json
 │── README.md
